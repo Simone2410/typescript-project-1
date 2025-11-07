@@ -1,8 +1,24 @@
-/* eslint-disable no-console */
+let isValid = true;
 
-function main(): void
+let somma = 0;
+let nvoti = 0;
+let media = 0;
+
+while (isValid)
 {
-    console.log("Hello, world!");
+    const numero = Number(prompt("Inserisci il voto."));
+    if ((numero < 1) || (numero > 10))
+    {
+        isValid = false;
+
+        alert("Il numero inserito non è valido.");
+    }
+    else
+    {
+        somma += numero;
+        nvoti += 1;
+    }
 }
 
-main();
+media = somma / nvoti;
+alert("La media è: " + media);
