@@ -1,10 +1,9 @@
-const eta1 = Number (prompt ("primo operatore numerico"));
-const eta2 = Number (promt ("secondo operatore numerico"));
+// const eta1 = Number (prompt ("primo operatore numerico"));
+// const eta2 = Number (prompt ("secondo operatore numerico"));
 
-const somma = (eta1 + eta2);
+// const somma = (eta1 + eta2);
 
-alert ("risultato operazione"); 
-
+alert ("risultato operazione");
 
 const MAGGIORE_ETA = 18;
 
@@ -16,15 +15,14 @@ alert("Hello, " + nome + "!");
 
 const eta = Number(prompt("Quanti anni hai?"));
 
-const a = (eta < MAGGIORE_ETA) || (eta >= 30);
-const b = !((eta >= MAGGIORE_ETA) && (eta < 30));
+// const a = (eta < MAGGIORE_ETA) || (eta >= 30);
+// const b = !((eta >= MAGGIORE_ETA) && (eta < 30));
 
-
-if (eta< MAGGIORE_ETA)
+if (eta < MAGGIORE_ETA)
 {
     alert("🔞");
 }
-else if ((eta >= MAGGIORE_ETA) || (nome == "Matteo") && (eta < 30))
+else if (((eta >= MAGGIORE_ETA) || (nome == "Matteo")) && (eta < 30))
 {
     alert("🔝");
 }
@@ -44,9 +42,8 @@ else
 
 // alert(2025 - eta);
 
-const somma = 3 + 5;
-const concatenazione = "ciao," + nome + "!";
-const uguaglianza = (eta == MAGGIORE_ETA);
+// const concatenazione = "ciao," + nome + "!";
+// const uguaglianza = (eta == MAGGIORE_ETA);
 
 alert ("benvenuto nella calcolatrice più figa del mondo. \n" +
     "le funzionalità che offre sono:\n" +

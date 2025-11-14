@@ -1,0 +1,6 @@
+const value = Number ("3");
+const array = [1, 2, 3, 4, 5];
+
+const val1 = 1;
+const val2 = 2;
+const val3 = 3;

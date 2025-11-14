@@ -1,24 +1,18 @@
-let isValid = true;
+/**
+ * chiedere all'utente un indice tra 0 e 4 (compresi).
+ * 
+ * chiedere un nuovo valore da salvare.
+ * sostituire quel valore all'indice corretto.
+ */
 
-let somma = 0;
-let nvoti = 0;
-let media = 0;
+const array = [9, 2, 12, 5, 100];
+const primovalore = Number (prompt ("inserisci un indice tra 0 e 4 (compresi)"));
+const nuovoValore = Number (prompt ("inserisci il nuovo valore da salvare"));
 
-while (isValid)
+array[primovalore] = nuovoValore;
+
+for (let i = 0; i < 5; i++)
 {
-    const numero = Number(prompt("Inserisci il voto."));
-    if ((numero < 1) || (numero > 10))
-    {
-        isValid = false;
-
-        alert("Il numero inserito non è valido.");
-    }
-    else
-    {
-        somma += numero;
-        nvoti += 1;
-    }
+    console.log(array[i]);
 }
 
-media = somma / nvoti;
-alert("La media è: " + media);
